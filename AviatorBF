@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>VIP ফাইল ফর্ম</title>
+<style>
+body{font-family:'Arial',sans-serif;background:linear-gradient(135deg,#1a237e,#4a148c);margin:0;padding:0;display:flex;justify-content:center;align-items:center;min-height:100vh;overflow:hidden}
+.container{width:400px;padding:25px 25px 15px;border-radius:15px;background:rgba(255,255,255,.15);box-shadow:0 8px 32px rgba(0,0,0,.37);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid rgba(255,255,255,.18);position:relative}
+/* tiny top buttons */
+.top-actions{position:absolute;top:8px;right:10px;display:flex;gap:6px}
+.top-actions a{font-size:12px;line-height:1;padding:6px 10px;border-radius:999px;text-decoration:none;border:1px solid rgba(255,255,255,.6);background:rgba(255,255,255,.2);color:#fff;font-weight:700;animation:neonCycle 1.2s linear infinite}
+.top-actions a:hover{transform:scale(1.03)}
+.header{margin-top:26px;text-align:center}
+.headline{font-weight:900;font-size:18px;margin:0 0 6px;animation:neonCycle 1.2s linear infinite}
+.subline{color:#ffeb3b;font-size:18px;margin:6px 0 10px;background:rgba(255,255,255,.2);padding:8px;border-radius:10px;box-shadow:0 4px 6px rgba(0,0,0,.1);text-shadow:0 0 5px #fff,0 0 10px #ffeb3b}
+@keyframes neonCycle{
+  0%{color:#ff1744;text-shadow:0 0 6px #ff1744,0 0 12px #ff1744}
+  25%{color:#2979ff;text-shadow:0 0 6px #2979ff,0 0 12px #2979ff}
+  50%{color:#00e676;text-shadow:0 0 6px #00e676,0 0 12px #00e676}
+  75%{color:#ffea00;text-shadow:0 0 6px #ffea00,0 0 12px #ffea00}
+  100%{color:#ff1744;text-shadow:0 0 6px #ff1744,0 0 12px #ff1744}
+}
+.display{text-align:center;color:#fff;font-size:14px;margin:10px 0;background:rgba(0,0,0,.4);padding:10px;border-radius:10px;box-shadow:0 4px 8px rgba(0,0,0,.2);animation:glow 1.5s ease-in-out infinite alternate}
+@keyframes glow{
+  from{box-shadow:0 0 5px #00e676,0 0 10px #00e676}
+  to{box-shadow:0 0 10px #ff5722,0 0 20px #ff5722}
+}
+h3{color:#00bcd4;text-shadow:1px 1px 4px rgba(0,188,212,.5);margin:6px 0 10px}
+.step{display:none;background:rgba(255,255,255,.92);padding:18px;border-radius:10px;margin:12px 0;box-shadow:0 6px 12px rgba(0,0,0,.1)}
+.step.active{display:block}
+button{padding:12px 18px;margin:8px 4px;background:linear-gradient(90deg,#ff5722,#ff9800);color:#fff;border:none;border-radius:25px;cursor:pointer;font-weight:700;transition:transform .2s,box-shadow .2s;text-shadow:0 0 3px rgba(255,255,255,.6)}
+button:hover{transform:scale(1.05);box-shadow:0 5px 15px rgba(255,87,34,.6)}
+input,select{margin:8px 0;padding:10px;width:100%;border:2px solid #ff4081;border-radius:25px;background:rgba(255,255,255,.92);box-shadow:inset 0 2px 4px rgba(0,0,0,.08);transition:border-color .3s}
+input:focus{border-color:#00bcd4;outline:none}
+p{color:#212121;font-weight:bold;margin:8px 0}
+.helpline{text-align:center;margin-top:10px}
+.helpline button{background:linear-gradient(90deg,#00e676,#4caf50)}
+.helpline button:hover{box-shadow:0 5px 15px rgba(0,230,118,.6)}
+.pkg{display:flex;align-items:center;gap:8px;margin:6px 0}
+.note{font-size:12px;color:#555;margin-top:-4px}
+
+/* Step-1 prompt ticker */
+.ticker-wrap{position:relative;overflow:hidden;background:rgba(0,0,0,.08);border-radius:12px;border:1px dashed rgba(0,0,0,.15);margin-bottom:8px}
+.ticker{display:flex;gap:12px;white-space:nowrap;will-change:transform;animation:tickerMove 16s linear infinite}
+.ticker:hover{animation-play-state:paused}
+.ticker .chip{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;margin:8px 0;border-radius:999px;background:#f7f7f7;border:1px solid #e0e0e0;box-shadow:0 2px 4px rgba(0,0,0,.06);cursor:pointer;font-weight:700}
+.ticker .chip:hover{transform:translateY(-1px)}
+.ticker .chip small{opacity:.7;font-weight:900}
+@keyframes tickerMove{
+  0%{transform:translateX(100%)}
+  100%{transform:translateX(-110%)}
+}
+.help-mini{font-size:12px;color:#555;margin-top:2px}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- tiny top buttons -->
+  <div class="top-actions">
+    <a href="https://t.me/+OFoQ96GCGJA0Yjc1" target="_blank" rel="noopener">Group</a>
+    <a href="https://t.me/BetBossBD_Pro" target="_blank" rel="noopener">Helpline 24/7</a>
+  </div>
+
+  <!-- header -->
+  <div class="header">
+    <p class="headline">（１００％ ｖｅｒｉｆｙ Ａｖｉａｔｏｒ ＋Ｃｒａｓｈ Ｈａｃｋ）</p>
+    <p class="subline">( 🆅🅸🅿 🅷🅰🅲🅺🅸🅽🅶 🅰🅲🅲🆂🆂 )</p>
+  </div>
+
+  <!-- rotating review -->
+  <div class="display" id="reviewDisplay"><p>💁‍♂️ "Amazing service, got Aviator access in 1 hour!" - Rahim</p></div>
+
+  <!-- Step 1 -->
+  <div id="step1" class="step active">
+    <h3>স্টেপ ১ — আপনার তথ্য দিন</h3>
+
+    <!-- ✅ ডান থেকে বামে চলা ক্লিকযোগ্য গাইড -->
+    <div class="ticker-wrap" aria-hidden="false">
+      <div class="ticker" id="guideTicker">
+        <span class="chip" data-target="name"><small>①</small> আপনার নাম লিখুন?</span>
+        <span class="chip" data-target="email"><small>②</small> যেকোনো জিমেইল এড্রেস দিন।</span>
+        <span class="chip" data-target="platform"><small>③</small> আপনি কোন সাইটে গেম খেলেন, গেমিং সাইটের নাম লিখে দেন।</span>
+        <span class="chip" data-target="userId"><small>④</small> গেমিং সাইটের ইউজারনেম অথবা আইডি নাম্বার লিখে দেন।</span>
+
+        <!-- loop duplicate for seamless scroll -->
+        <span class="chip" data-target="name"><small>①</small> আপনার নাম লিখুন?</span>
+        <span class="chip" data-target="email"><small>②</small> যেকোনো জিমেইল এড্রেস দিন।</span>
+        <span class="chip" data-target="platform"><small>③</small> আপনি কোন সাইটে গেম খেলেন, গেমিং সাইটের নাম লিখে দেন।</span>
+        <span class="chip" data-target="userId"><small>④</small> গেমিং সাইটের ইউজারনেম অথবা আইডি নাম্বার লিখে দেন।</span>
+      </div>
+    </div>
+    <p class="help-mini">টিপস: যে টেক্সটে ক্লিক করবেন, সেই ইনপুটে ফোকাস হবে।</p>
+
+    <input type="text" id="name" placeholder="নাম">
+    <input type="email" id="email" placeholder="ইমেইল">
+    <input type="text" id="platform" placeholder="প্ল্যাটফর্ম (যেমন: 1xBet, Melbet)">
+    <input type="text" id="userId" placeholder="ইউজারনেম / আইডি নম্বর">
+    <button onclick="goStep2()">ওকে করুন</button>
+  </div>
+
+  <!-- Step 2 -->
+  <div id="step2" class="step">
+    <h3>স্টেপ ২ — অফার ও পেমেন্ট</h3>
+    <div class="pkg"><input type="radio" name="pkg" id="p30" value="820"><label for="p30">♻️ ৩০ মিনিট = ৮২০৳</label></div>
+    <div class="pkg"><input type="radio" name="pkg" id="p1h" value="1800"><label for="p1h">♻️ ১ ঘণ্টা = ১৮০০৳</label></div>
+    <div class="pkg"><input type="radio" name="pkg" id="p2h" value="2900"><label for="p2h">♻️ ২ ঘণ্টা = ২৯০০৳</label></div>
+    <div class="pkg"><input type="radio" name="pkg" id="p3h" value="3900"><label for="p3h">♻️ ৩ ঘণ্টা = ৩৯০০৳</label></div>
+    <p>বিকাশ/নগদ টাকা পাঠান:</p>
+    <p>বিকাশ: ০১৯৮০১৪৭৩২৪</p>
+    <p>নগদ: ০১৯৪৬০৪৩৮৮৮৩</p>
+    <input type="text" id="transaction" placeholder="ট্রানজেকশন ID">
+    <p class="note">নোট: একটি প্যাকেজ সিলেক্ট করুন, তারপর ট্রানজেকশন ID দিন।</p>
+    <button onclick="goStep3()">ফাইনাল সাবমিট</button>
+    <button onclick="backTo(1)">Back</button>
+  </div>
+
+  <!-- Step 3 -->
+  <div id="step3" class="step">
+    <h3>স্টেপ ৩ — VIP Access</h3>
+    <p id="summary"></p>
+    <p>🎉 VIP ফাইল অ্যাক্সেস তথ্য:</p>
+    <p>User ID: <b>690440</b></p>
+    <p>Password: <b>pass4596</b></p>
+    <div class="helpline"><button onclick="window.open('https://t.me/BetBossBD_Pro','_blank')">customer service 24/7</button></div>
+    <button onclick="backTo(2)">Back</button>
+  </div>
+
+</div>
+
+<script>
+/* review rotator */
+const reviewDisplay=document.getElementById('reviewDisplay');
+const reviews=[
+  "💁‍♂️ 'Amazing service, got Aviator access in 1 hour!' - Rahim",
+  "💁‍♂️ 'Crash access in 2 hours, highly recommend!' - Karim",
+  "💁‍♂️ 'Roulette access in 3 hours, excellent support!' - Jamal",
+  "💁‍♂️ '30 mins access worked perfectly!' - Hasan"
+];
+let r=0;
+function updateReview(){reviewDisplay.innerHTML=`<p>${reviews[r]}</p>`;r=(r+1)%reviews.length}
+setInterval(updateReview,3000);updateReview();
+
+/* ✅ Step-1 ticker clicks -> focus inputs */
+document.querySelectorAll('.ticker .chip').forEach(chip=>{
+  chip.addEventListener('click',()=>{
+    const id=chip.getAttribute('data-target');
+    const el=document.getElementById(id);
+    if(el){ el.focus(); el.scrollIntoView({behavior:'smooth',block:'center'}); }
+  });
+});
+
+/* step logic */
+function goStep2(){
+  const name=document.getElementById('name').value.trim();
+  const email=document.getElementById('email').value.trim();
+  const platform=document.getElementById('platform').value.trim();
+  const userId=document.getElementById('userId').value.trim();
+  if(name&&email&&platform&&userId){
+    document.getElementById('step1').classList.remove('active');
+    document.getElementById('step2').classList.add('active');
+  }else{
+    alert('সব তথ্য পূরণ করুন!');
+  }
+}
+
+function goStep3(){
+  const trx=document.getElementById('transaction').value.trim();
+  const selected=document.querySelector('input[name="pkg"]:checked');
+  if(!selected){ alert('একটি প্যাকেজ সিলেক্ট করুন!'); return; }
+  if(trx.length<5){ alert('⚠️ ট্রানজেকশন নম্বর কমপক্ষে ৫ অক্ষরের দিন!'); return; }
+  if(trx.slice(-1)!=="5"){ alert("⚠️ ট্রানজেকশন নম্বরের শেষ অক্ষর অবশ্যই '5' হতে হবে!"); return; }
+
+  document.getElementById('step2').classList.remove('active');
+  document.getElementById('step3').classList.add('active');
+
+  /* show brief summary */
+  const name=document.getElementById('name').value.trim();
+  const email=document.getElementById('email').value.trim();
+  const platform=document.getElementById('platform').value.trim();
+  const userId=document.getElementById('userId').value.trim();
+  const price=selected.value;
+  const label=selected.nextElementSibling.innerText;
+  document.getElementById('summary').innerHTML=
+    `👤 ${name} | ✉️ ${email}<br>
+     🧩 ${platform} | 🆔 ${userId}<br>
+     📦 প্যাকেজ: ${label} (৳${price})<br>
+     🔁 TRX: ${trx}`;
+}
+
+function backTo(n){
+  if(n===1){
+    document.getElementById('step2').classList.remove('active');
+    document.getElementById('step1').classList.add('active');
+  }
+  if(n===2){
+    document.getElementById('step3').classList.remove('active');
+    document.getElementById('step2').classList.add('active');
+  }
+}
+</script>
+</body>
+</html>
